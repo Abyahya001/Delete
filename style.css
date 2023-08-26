@@ -1,0 +1,40 @@
+
+
+body {
+    margin:0;
+    padding:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    user-select:none;
+}
+
+div{
+    width:90%;
+    height:20vh;
+    background-color:#34567a;
+    margin:40vh 0;
+    border-radius:5px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+button{
+    padding:15px;
+    font-size:18px;
+    font-weight:500;
+    border:2px solid #34567a;
+    outline:2px solid #fff;
+    background-color:#fff;
+    border-radius:5px;
+    color:#34567a;
+}
+
+button:active{
+    border-color:#fff;
+    outline-color:#34567a;
+    color:#fff;
+    background-color:#34567a;
+}
+

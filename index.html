@@ -1,0 +1,33 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Button</title>
+<!-- Just practice , Only for learn and fun -->
+</head>
+<body>
+<div class="container">
+<button class="btn" id="btn1" onclick="abc()">DELETE ACCOUNT</button>    
+</div>
+
+<script>
+    
+function abc() {
+var btn = document.getElementById("btn1");
+var conf = confirm("Do you want to delete your account?");
+
+if(conf === true){
+document.getElementById("btn1").innerText = "DELETED";
+document.getElementById("btn1").disabled="true";
+}
+
+else{
+document.getElementById("btn1").innerText = "DELETE ACCOUNT";
+}
+}    
+    
+</script>
+        
+</body>
+</html>
